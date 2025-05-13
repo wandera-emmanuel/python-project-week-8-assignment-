@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Global Data Tracker Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>COVID-19 Global Data Tracker Project</h1>
+        <p>Analyzing and Visualizing Data with Pandas and Matplotlib</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#visualizations">Visualizations</a></li>
+            <li><a href="#tools">Tools & Setup</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>This project showcases data analysis and visualization using Python. While named for a COVID-19 tracker, it currently analyzes the Iris dataset to demonstrate data processing techniques applicable to global health data. Explore the visualizations and insights below!</p>
+        <h3>Objectives</h3>
+        <ul>
+            <li>Load and explore a dataset using pandas.</li>
+            <li>Perform basic statistical analysis.</li>
+            <li>Create visualizations to uncover patterns.</li>
+            <li>Present findings in an accessible, web-based format.</li>
+        </ul>
+    </section>
+
+    <section id="visualizations">
+        <h2>Visualizations</h2>
+        <div class="viz-container">
+            <div class="viz">
+                <h3>Line Chart: Mean Feature Values</h3>
+                <img src="images/line_chart.png" alt="Line Chart">
+                <p>Shows trends in mean feature values across Iris species.</p>
+            </div>
+            <div class="viz">
+                <h3>Bar Chart: Average Petal Length</h3>
+                <img src="images/bar_chart.png" alt="Bar Chart">
+                <p>Compares average petal length by species.</p>
+            </div>
+            <div class="viz">
+                <h3>Histogram: Sepal Length Distribution</h3>
+                <img src="images/histogram.png" alt="Histogram">
+                <p>Displays the distribution of sepal length.</p>
+            </div>
+            <div class="viz">
+                <h3>Scatter Plot: Sepal vs. Petal Length</h3>
+                <img src="images/scatter_plot.png" alt="Scatter Plot">
+                <p>Visualizes the relationship between sepal and petal length, colored by species.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Tools & Setup</h2>
+        <h3>Tools and Libraries</h3>
+        <ul>
+            <li><strong>Python</strong>: Programming language.</li>
+            <li><strong>pandas</strong>: Data manipulation and analysis.</li>
+            <li><strong>matplotlib</strong>: Plotting and visualization.</li>
+            <li><strong>seaborn</strong>: Enhanced visualization styling.</li>
+            <li><strong>scikit-learn</strong>: Iris dataset source.</li>
+            <li><strong>Jupyter Notebook</strong>: Interactive coding environment.</li>
+        </ul>
+        <h3>How to Run</h3>
+        <ol>
+            <li>Clone the repository: <code>git clone https://github.com/your-username/your-repo.git</code></li>
+            <li>Install dependencies: <code>pip install pandas matplotlib seaborn scikit-learn</code></li>
+            <li>Open <code>iris_analysis.ipynb</code> in Jupyter Notebook.</li>
+            <li>Run all cells to reproduce the analysis and visualizations.</li>
+        </ol>
+        <p>View the notebook on GitHub: <a href="https://github.com/your-username/your-repo/blob/main/iris_analysis.ipynb">iris_analysis.ipynb</a></p>
+    </section>
+
+    <section id="insights">
+        <h2>Insights</h2>
+        <ul>
+            <li><strong>Species Separation</strong>: Setosa is distinctly separable due to its smaller petal measurements, ideal for classification tasks.</li>
+            <li><strong>Feature Differences</strong>: Virginica has the largest sepal and petal measurements, followed by versicolor.</li>
+            <li><strong>Visualization Clarity</strong>: The scatter plot effectively shows species clusters, highlighting feature correlations.</li>
+            <li><strong>Applicability</strong>: Techniques used here (e.g., grouping, plotting) are transferable to global health data like COVID-19 case tracking.</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This project was developed to demonstrate data analysis and visualization skills. While the Iris dataset was used for simplicity, the methods are applicable to real-world datasets like COVID-19 case data. Reflections:</p>
+        <ul>
+            <li>Learned the power of pandas for data manipulation and matplotlib for visualization.</li>
+            <li>Understood the importance of clear, labeled plots for communicating insights.</li>
+            <li>Recognized the need for robust error handling in data pipelines.</li>
+            <li>Future work could integrate real COVID-19 data from sources like WHO or Johns Hopkins.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. <a href="https://github.com/your-username/your-repo">GitHub Repository</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
